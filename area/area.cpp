@@ -10,6 +10,6 @@ int main( )
     cout<< "Enter the  radius"; 
     cin>>rad; 
     area=PI * rad * rad;
-    cout<< "Area of the circle is "<< area; 
+    cout<< "Area of the circle is "<< area <<endl; 
     return 0;
 }  
