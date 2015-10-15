@@ -2,32 +2,17 @@
 
 using namespace std;
 
-int main( ) 
+int main() 
 { 
-<<<<<<< HEAD
     float PI = 3.14159265359;                // variables can be initialized during declaration 
     double rad;
     double area;
-    cout<< "Enter the  radius"; 
+    cout<< "Enter the radius:  "; 
     cin>>rad; 
+if (rad<=0)
+    cout<<"Nie można wykonać operacji"<<endl;
+else
     area=PI * rad * rad;
     cout<< "Area of the circle is "<< area <<endl; 
-=======
-
-    float PI = 3,14159;                // variables can be initialized during declaration 
-    double rad; 
-    double area;
-    cout<< "Enter the radius"; 
-    cin>>rad;
-if (rad<=0)
-	cout<<"Nie można wykonać operacji"<<endl;
-else
-	area=PI * rad * rad;
-
-    cout<< "Area of the circle = "<<area;
-    cout<<endl;
-	 
-
->>>>>>> 79f982a180e99186fad86c15a3e2cd0ae4905e0d
     return 0;
 }  
