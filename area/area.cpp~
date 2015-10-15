@@ -11,16 +11,23 @@ int main( )
     cout<< "Enter the  radius"; 
     cin>>rad; 
     area=PI * rad * rad;
-    cout<< "Area of the circle is "<< area; 
+    cout<< "Area of the circle is "<< area <<endl; 
 =======
-    float PI = 3.141592;                // variables can be initialized during declaration 
-    double rad;
-	double area; 
+
+    float PI = 3,14159;                // variables can be initialized during declaration 
+    double rad; 
+    double area;
     cout<< "Enter the radius"; 
-    cin>>rad; 
+    cin>>rad;
+if (rad<=0)
+	cout<<"Nie można wykonać operacji"<<endl;
+else
 	area=PI * rad * rad;
-    cout<< "Area of the circle is "<< area; 
-	cout<<endl;
->>>>>>> eeb31733d796e5ae954402df9eb1fdc86b5a1d3b
+
+    cout<< "Area of the circle = "<<area;
+    cout<<endl;
+	 
+
+>>>>>>> 79f982a180e99186fad86c15a3e2cd0ae4905e0d
     return 0;
 }  

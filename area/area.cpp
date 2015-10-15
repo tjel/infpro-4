@@ -9,6 +9,9 @@ int main( )
     double area;
     cout<< "Enter the  radius"; 
     cin>>rad; 
+if (rad<=0)
+    cout<<"Nie można wykonać operacji"<<endl;
+else
     area=PI * rad * rad;
     cout<< "Area of the circle is "<< area <<endl; 
     return 0;
