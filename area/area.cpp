@@ -4,6 +4,7 @@ using namespace std;
 
 int main( ) 
 { 
+
     float PI = 3,14159;                // variables can be initialized during declaration 
     double rad; 
     double area;
@@ -17,5 +18,6 @@ else
     cout<< "Area of the circle = "<<area;
     cout<<endl;
 	 
+
     return 0;
 }  
